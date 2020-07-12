@@ -143,7 +143,7 @@ random_tuner = RandomSearch(
     executions_per_trial = 1,
     seed=10, 
     project_name='fashion_mnist_keras',
-    directory=r"C:\Users\feder\Google Drive\Universita\Progetti\fashion-mnist")
+    directory="DIRECTORY\fashion-mnist")
 
 
 # Search for the best parameters of the neural network using the contructed random search tuner
